@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // ---------------------------------------- STRICT MODE
 
@@ -34,7 +34,6 @@
 
 //  THIS IS FUNC DECLARATION
 // birthYear is parameter, 1997 is argument
-
 
 // function calcAge1(birthYear) {
 //     return 2022 - birthYear;
@@ -72,7 +71,6 @@
 
 // console.log(yearsUntilRetirement(1997, 'Fauzan'));
 
-
 // ---------------------------------------- FUNCTION CALLED OTHER FUNCTION
 
 // function cutFruitPieces(fruit) {
@@ -106,7 +104,6 @@
 //         return -1;
 //     }
 
-
 // };
 
 // console.log(yearsUntilRetirement(1997, 'Fauzan'));
@@ -114,14 +111,12 @@
 
 // ---------------------------------------- CODING CHALLENGE 1
 
-
 // function calcAverage(score1, score2, score3) {
 //     const avgScore = (score1 + score2 + score3) / 3;
 //     return avgScore.toFixed(0);
 // }
 
 // const calcAverage = (a, b, c) => (a + b + c) / 3;
-
 
 // function checkWinner(avgDolhins, avgKoalas) {
 
@@ -178,7 +173,6 @@
 // console.log(friends.indexOf('Steven'));
 // console.log(friends.includes('Steven'));
 
-
 // ---------------------------------------- CODING CHALLENGE 2
 // const bills = [125, 555, 44];
 // const tips = [];
@@ -202,7 +196,6 @@
 //     } else {
 //         calcTip(bills);
 //     }
-
 
 // };
 
@@ -261,7 +254,6 @@
 
 // ---------------------------------------- CODING CHALLENGE 3
 
-
 // const Mark = {
 //     weight: 78,
 //     height: 1.69,
@@ -292,7 +284,6 @@
 // for (let rep = 1; rep <= 10; rep++) {
 //     console.log(`Lifting weight repetition ${rep}`);
 // }
-
 
 // ---------------------------------------- LOOPING ARRAY, BREAKING, CONTINUING
 
@@ -370,7 +361,6 @@
 //     console.log(`you role a ${dice}`);
 // };
 
-
 // ---------------------------------------- CODING CHALLENGE 4
 
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
@@ -378,23 +368,21 @@ const tips = [];
 const total = [];
 
 const calcTip = function (bills) {
-
-    for (let i = 0; i < bills.length; i++) {
-        const tip = bills[i] > 50 && bills[i] < 300 ? 0.15 * bills[i] : 0.2 * bills[i];
-        tips.push(tip);
-        total.push(bills[i] + tip);
-    }
+  for (let i = 0; i < bills.length; i++) {
+    const tip =
+      bills[i] > 50 && bills[i] < 300 ? 0.15 * bills[i] : 0.2 * bills[i];
+    tips.push(tip);
+    total.push(bills[i] + tip);
+  }
 };
 
-
-
 const calcAverage = function (arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
-    const avg = sum / arr.length;
-    return avg;
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  const avg = sum / arr.length;
+  return avg;
 };
 
 calcTip(bills);
