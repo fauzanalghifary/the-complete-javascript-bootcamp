@@ -119,3 +119,41 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .number {
+    font-size: 3rem;
+    width: 7.5rem;
+    padding: 1.5rem 0rem;
+  }
+  .left {
+    width: 26rem;
+  }
+
+  .right {
+    width: 26rem;
+    font-size: 1rem;
+  }
+  .guess {
+    border: 2px solid #eee;
+    font-size: 2.5rem;
+    padding: 1.25rem;
+    width: 12.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .message {
+    margin-bottom: 4rem;
+    height: 1.5rem;
+  }
+  main {
+    height: 32.5rem;
+  }
+}
