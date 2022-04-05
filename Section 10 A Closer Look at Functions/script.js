@@ -329,6 +329,6 @@
   header.style.color = 'red';
 
   document.querySelector('body').addEventListener('click', function (e) {
-    header.style.color = 'blue';
+    header.style.color = header.style.color === 'red' ? 'blue' : 'red';
   });
 })();
