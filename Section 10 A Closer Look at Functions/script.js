@@ -67,31 +67,31 @@
 
 // Function Accepting Callback Function -----------------------------------------
 
-// const oneWord = function (str) {
-//   return str.replace(/ /g, '').toLowerCase();
-// };
+const oneWord = function (str) {
+  return str.replace(/ /g, '').toLowerCase();
+};
 
-// const upperFirstWord = function (str) {
-//   const [first, ...others] = str.split(' ');
-//   return [first.toUpperCase(), ...others].join(' ');
-// };
+const upperFirstWord = function (str) {
+  const [first, ...others] = str.split(' ');
+  return [first.toUpperCase(), ...others].join(' ');
+};
 
-// // HOF
-// const transformer = function (str, fn) {
-//   console.log(`Original string: ${str}`);
-//   console.log(`Transformed string: ${fn(str)}`);
+// HOF
+const transformer = function (str, fn) {
+  console.log(`Original string: ${str}`);
+  console.log(`Transformed string: ${fn(str)}`);
 
-//   console.log(`Transformed by: ${fn.name}`);
-// };
+  console.log(`Transformed by: ${fn.name}`);
+};
 
-// transformer('Javascript is the best', upperFirstWord);
-// transformer('Javascript is the best', oneWord);
+transformer('Javascript is the best', upperFirstWord);
+transformer('Javascript is the best', oneWord);
 
-// const high5 = function () {
-//   console.log(`🎉`);
-// };
+const high5 = function () {
+  console.log(`🎉`);
+};
 
-// document.body.addEventListener('click', high5);
+document.body.addEventListener('click', high5);
 
 // Function returning Function -----------------------------------------
 
