@@ -34,8 +34,8 @@
 
 // const now = 2022;
 // const ageFauzan = now - 1997;
-// const ageElmia = now - 1998;
-// console.log(ageFauzan, ageElmia);
+// const agePojan = now - 1998;
+// console.log(ageFauzan, agePojan);
 
 // const firstName = 'Fauzan';
 // const lastName = 'Al Ghifary';
@@ -47,8 +47,8 @@
 // x++; // x+1
 // console.log(x);
 
-// console.log(ageFauzan > ageElmia);
-// console.log(ageFauzan >= ageElmia);
+// console.log(ageFauzan > agePojan);
+// console.log(ageFauzan >= agePojan);
 
 // --------------------------------------- OPERATOR PRECEDENCE
 

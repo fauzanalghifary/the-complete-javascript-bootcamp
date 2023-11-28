@@ -1,5 +1,3 @@
-"use strict";
-
 // ---------------------------------------- STRICT MODE
 
 // let hasDriversLicense = false;
